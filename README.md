@@ -33,7 +33,7 @@ For further information, click on the previous link.
 
 ##  Project Description
 
-Airbnb Clone is the main project of the second trimester at Holberton School. The aim is to develop an entire web application that simulates the behavior of the Airbnb platform. Starting from the console or command interpreter, to manipulate data without a visual interface, like in a Shell (perfect for development and debugging), followed by the construction of a website (the front-end) that shows the final product to everybody: static and dynamic, once it's finished what follows is the connection with the database or files that store data (data = objects). And last but not least, the creation of an API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them).
+Airbnb Clone is the main project of the second trimester at ALX School. The aim is to develop an entire web application that simulates the behavior of the Airbnb platform. Starting from the console or command interpreter, to manipulate data without a visual interface, like in a Shell (perfect for development and debugging), followed by the construction of a website (the front-end) that shows the final product to everybody: static and dynamic, once it's finished what follows is the connection with the database or files that store data (data = objects). And last but not least, the creation of an API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them).
 
 
 
@@ -65,7 +65,7 @@ Airbnb Clone is the main project of the second trimester at Holberton School. Th
 
 	Follow the instructions to get a copy of the program and run in your local machine:
 	- Clone the following repository.
-		> `https://github.com/julianfrancor/AirBnB_clone.git`
+		> `https://github.com/TheGreatPradel/AirBnB_clone`
 	- Run the program
 		> `./console.py`
 
@@ -77,7 +77,7 @@ Airbnb Clone is the main project of the second trimester at Holberton School. Th
 | show | `show <class  name>  <id>` | show BaseModel 1234-1234-1234 | Prints the string representation of an instance based on the class name and id. |
 | destroy | `destroy <class  name>  <id>`| destroy BaseModel 1234-1234-1234 | Deletes an instance based on the class name and id (save the change into the JSON file). |
 | all | `all <class  name> or all` | all BaseModel | Prints all string representation of all instances based or not on the class name. |
-| update | `update <class  name>  <id>  <attribute  name> "<attribute  value>"` | update BaseModel 1234-1234-1234 email "aibnb@holbertonschool.com" | Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). |
+| update | `update <class  name>  <id>  <attribute  name> "<attribute  value>"` | update BaseModel 1234-1234-1234 email "aibnb@ALXschool.com" | Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). |
 | all() | `<class  name>.all()` | User.all() | Retrieve all instances of a class |
 | count() | `<class  name>.count()` | User.count() | Retrieve the number of instances of a class |
 | show() | `<class  name>.show(<id>)` | User.show("246c227a-d5c1-403d-9bc7-6a47bb9f0f68") | retrieve an instance based on its ID |
